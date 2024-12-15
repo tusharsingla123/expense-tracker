@@ -61,6 +61,7 @@ The Expense Tracker is a full-stack web application that helps users manage thei
   ```bash
   PORT=8000
   MONGODB_URI=mongodb://localhost:27017/exp
+  JWT_KEY = "asdbjdkjasadakjsdskjad"
   ```
 * Database Setup: Ensure MongoDB is running locally or modify the MONGODB_URI in the .env file to match your database setup.
 * Run the Backend Server: Start the backend server in the backend folder
